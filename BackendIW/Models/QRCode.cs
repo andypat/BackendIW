@@ -7,5 +7,10 @@ namespace BackendIW.Models
 {
 	public class QRCode : Scan
 	{
+		public QRCode(string value) : 
+			base(value)
+		{			
+		}
+
 	}
 }

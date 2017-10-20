@@ -7,5 +7,9 @@ namespace BackendIW.Models
 {
 	public class Barcode :  Scan
 	{
+		public Barcode(string value) :
+			base(value)
+		{
+		}
 	}
 }

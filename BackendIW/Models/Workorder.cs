@@ -9,5 +9,7 @@ namespace BackendIW.Models
 		EntityBase
 	{
 
+		public DateTime Created { get; set; }
+		public virtual ICollection<Scan> Scans { get; set; }
 	}
 }

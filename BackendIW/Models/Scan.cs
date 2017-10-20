@@ -1,9 +1,9 @@
 ﻿
 namespace BackendIW.Models
 {
-	public class Scan : ValueObject<Scan>
+	public abstract class Scan : ValueObject<Scan>
 	{
-		public Scan(string value)
+		protected Scan(string value)
 		{
 			Value = value;
 		}
